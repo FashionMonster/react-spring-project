@@ -1,0 +1,11 @@
+# packege
+node_modules
+
+# build
+dist
+
+# yarn
+yarn.lock
+
+# other
+.idea
