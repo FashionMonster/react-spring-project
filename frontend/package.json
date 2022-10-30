@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "React & Spring project",
   "scripts": {
-    "start": "cpx './dist/bundle.js' ../backend/src/main/resources/static && npm-run-all --parallel onChange watch",
-    "onChange": "onchange './dist/bundle.js' -- cpx './dist/bundle.js' ../backend/src/main/resources/static",
+    "start": "cpx ./dist/bundle.js ../backend/src/main/resources/static && npm-run-all --parallel onChange watch",
+    "onChange": "onchange ./dist/bundle.js -- cpx ./dist/bundle.js ../backend/src/main/resources/static",
     "watch": "webpack --watch",
     "build": "webpack",
     "build-prod": "webpack --mode=production"
