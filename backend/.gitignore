@@ -34,7 +34,7 @@ out/
 /.nb-gradle/
 
 ### react ###
-/main/resources/static/bundle.js
+src/main/resources/static/bundle.js
 
 ### docker(MySQL) ###
 /docker/db/data

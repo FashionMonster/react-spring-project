@@ -28,7 +28,7 @@ const Hello = () => {
                 <p>{resResult.title}</p>
                 <p>{resResult.message}</p>
             </div>
-            <Link to={"/pageSample"}>リンク</Link>
+            <Link to={"/app/pageSample"}>リンク</Link>
         </>
     )
 }
